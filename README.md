@@ -88,8 +88,4 @@ After apply, copy the output role ARN into your GitHub repository secret:
 - SSH (22) is open based on `allowed_ssh_cidr`. Restrict this before production use.
 - `key_name` is optional. If you do not need SSH, leave it as `null`.
 
-## Destroy
 
-```bash
-terraform destroy -auto-approve
-```
